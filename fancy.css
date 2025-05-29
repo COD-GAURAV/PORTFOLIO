@@ -1,0 +1,595 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heading{
+    color: gold;
+}
+
+body{
+      font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+     font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p{
+    color:goldenrod;
+}
+
+#head{
+    height: 100vh;
+    width: 100vw;
+     /* background-color: tomato; 
+     display: flex;
+    justify-content:center ;
+    align-items: center; */
+    /* position: fixed;  */
+}
+
+#navbar{
+    height: 10%;
+    width: 100%;
+    background-color: tomato;
+    position: fixed;
+
+    
+}
+#nav{
+    height: 100%;
+    width: 100%;
+   display: flex;
+    justify-content:center ;
+    align-items: center ;
+    gap: 40%;
+    /* position: fixed; */
+}
+
+#list{
+    display: flex;
+    justify-content:center ;
+    align-items: center ;
+    gap: 40%;
+    list-style: none;
+    /* position: fixed; */
+}
+
+.list-name{
+    cursor: pointer;
+    font-size: 1.1vw;
+}
+
+#content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+#image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5%;
+}
+
+#img{
+   
+    width: 50%;
+}
+
+#about{
+    height: calc(190vh - 100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gaurav{
+    font-size: 2.5vw;
+}
+
+#frontent{
+    font-size: 2.5vw;
+}
+
+#download{
+    height: 7vh;
+    width: 11vw;
+    border: none;
+    background-color: tomato;
+    font-size: 0.7vw;
+    border: none;
+}
+
+#aboutsection{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about-image{
+    height: 100%;
+    width: 35%;
+}
+
+#heading2{
+    font-size: 25px;
+}
+
+#about-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#abo{
+    height: 90%;
+    width: 60%;
+    font-size: 1.5vw;
+}
+
+#about-image{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ab-img{
+    width: 80%;
+}
+
+#skill{
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#skillsection{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hi{
+    font-size: 1.5vw;
+}
+
+#skill-image{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.per{
+    height: 3.6vh;
+    width: 32vw;
+    background-color: gray;
+}
+
+#skill-img{
+    
+    width: 90%;
+    
+}
+
+/* #skill-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#skill-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#skill-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+
+#inside-html{
+    height: 25px;
+    width: 95%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#inside-css{
+    height: 25px;
+    width: 75%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#inside-js{
+    height: 25px;
+    width: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#value{
+    height: 12vh;
+    width: 32vw;
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.item{
+    height: 8vh;
+    width: 4vw;
+}
+
+.it-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    gap: 46px;
+}
+
+#download-2{
+    height: 7vh;
+    width: 11vw;
+    border: none;
+    background-color: tomato;
+    font-size: 0.7vw;
+    border: none;
+}
+
+#CONTACT-us{
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    
+}
+/* 
+.contact{
+    padding-top: ;
+} */
+
+#contact-section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color:teal;
+}
+
+#feedback{
+    height: 90%;
+    width: 50%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw ;
+}
+
+#feed-need{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw ;
+}
+
+#map{
+     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yac{
+    height: 50%;
+    width: 100%;
+}
+
+#map-img{
+  
+    width: 72%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vw;
+    height: 90%;
+    width: 90%;
+}
+
+#cont{
+    font-size: 2vw;
+}
+
+.input{
+    height: 6vh;
+    width: 35vw;
+}
+
+input{
+    padding-left: 1vw;
+    font-size: 1vw;
+}
+
+/* .input::placeholder{
+    padding-left: 1vw;
+    font-size: 1vw;
+} */
+
+#yyy{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+}
+
+#comment-p{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#position{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+#submit{
+    height: 10vh;
+    width: 35vw;
+}
+
+#sub{
+    height: 7vh;
+    width: 11vw;
+    border: none;
+    background-color: tomato;
+    font-size: 0.9vw;
+    border: none;
+}
+
+.pp{
+    font-size: 1.7vw;
+    display: flex;
+    gap: 1vw;
+}
+
+hr{
+    height: 0.4vh;
+    background-color: #ff6347;
+}
+
+
+.a12{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center ;
+    gap: 1vw;
+}
+
+.hii{
+    font-size: 1.5vw;
+    color:#daa520;
+}
+
+footer{
+    height: 40vh;
+    width: 100vw;
+   
+    /* background-color: tomato; */
+    /* display: flex;
+    justify-content:center;
+    align-items: center; */
+}
+
+#footer-index{
+    height: 100%;
+    width: 100%;
+    
+     /* bottom: 0%; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2vw;
+
+}
+
+.indiga{
+    height: 50%;
+   
+    width: 15%;
+    /* background-color: aqua; */
+}
+
+footer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:tomato;
+    flex-direction: column;
+    
+
+}
+#top-mid{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2.5vw;
+
+}
+
+.itreate{
+    height: 70%;
+    width: 20%;
+    /* background-color:honeydew; */
+
+}
+
+#copyright{
+    height: 10%;
+    width: 90%;
+}
+
+#index1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+#index1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#index2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-top: 4.5vh;
+}
+
+
+#index3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li{
+    list-style: none;
+}
+
+
+#social{
+    display: flex;
+    gap: 2vw;
+}
+
+.fix{
+    font-size:2.1vw;
+  /* filter: brightness(0) invert(1); */
+  transition: transform 0.2s;
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.fa-facebook{
+    color: black;
+}
+
+.fa-x-twitter{
+    color: black;
+}
+
+.fa-instagram:hover{
+    color: honeydew;
+     transform: scale(1.1);
+}
+
+.fa-facebook:hover{
+    color: blue;
+     transform: scale(1.1);
+}
+
+.fa-x-twitter:hover{
+    color: yellowgreen;
+    transform: scale(1.1);
+}
+
+#copyright{
+     display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    color: #ffffff;
+}
+
+#footer-p{
+    color: white;
+}
+
+.piko{
+    font-size: 2vw;
+    color: gold;
+}
