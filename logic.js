@@ -7,11 +7,16 @@ const about = document.getElementById("ABOUT")
 const skill = document.getElementById("SKILLS")
 const contact = document.getElementById("CONTACT")
 
+let contentSection = document.getElementById("content")
+
 
 
 window.addEventListener("scroll",function(e){
     console.log(Math.round(scrollY));
-    
+    // console.log(window.innerWidth)
+//     if(window.innerWidth <= 720){
+//     contentSection.style.display = "block"
+// }
 })
 
 
@@ -25,7 +30,7 @@ home.addEventListener("click",function(w){
 
 about.addEventListener("click",function(){
     window.scrollTo({
-        top:641,
+        top:714,
         behavior:"smooth"
     })
 })
@@ -33,17 +38,19 @@ about.addEventListener("click",function(){
 
 skill.addEventListener("click",function(){
      window.scrollTo({
-        top:1232,
+        top:1374,
         behavior:"smooth"
     })
 })
 
 contact.addEventListener("click",function(){
     window.scrollTo({
-        top:1842,
+        top:2047,
         left:0,
         behavior:"smooth"
     })
 })
+
+
 
 
