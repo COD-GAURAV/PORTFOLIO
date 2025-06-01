@@ -54,7 +54,7 @@ contact.addEventListener("click",function(){
 
 // adding typewritter effect
 
-const type = "GAUARV !"
+const type = "GAURAV !"
 
 let adding = true
 
