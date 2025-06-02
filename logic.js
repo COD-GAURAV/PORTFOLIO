@@ -41,7 +41,7 @@ home.addEventListener("click",function(w){
 
 about.addEventListener("click",function(){
     window.scrollTo({
-        top:714,
+        top:628,
         behavior:"smooth"
     })
 })
@@ -49,14 +49,14 @@ about.addEventListener("click",function(){
 
 skill.addEventListener("click",function(){
      window.scrollTo({
-        top:1374,
+        top:1230,
         behavior:"smooth"
     })
 })
 
 contact.addEventListener("click",function(){
     window.scrollTo({
-        top:2047,
+        top:1816,
         left:0,
         behavior:"smooth"
     })
