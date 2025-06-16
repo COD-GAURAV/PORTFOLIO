@@ -41,7 +41,7 @@ home.addEventListener("click",function(w){
 
 about.addEventListener("click",function(){
     window.scrollTo({
-        top:628,
+        top:699,
         behavior:"smooth"
     })
 })
@@ -49,14 +49,14 @@ about.addEventListener("click",function(){
 
 skill.addEventListener("click",function(){
      window.scrollTo({
-        top:1230,
+        top:1366,
         behavior:"smooth"
     })
 })
 
 contact.addEventListener("click",function(){
     window.scrollTo({
-        top:1816,
+        top:2035,
         left:0,
         behavior:"smooth"
     })
@@ -129,7 +129,7 @@ home1.addEventListener("click",function(w){
     nav.style.display = "flex"
 })
 about2.addEventListener("click",function(){
-    document.querySelector("#scroll").scrollIntoView({
+    document.querySelector("#download").scrollIntoView({
         behavior:"smooth"
     })
     // window.scrollTo({
@@ -141,7 +141,7 @@ about2.addEventListener("click",function(){
     nav.style.display = "flex"
 })
 skill3.addEventListener("click",function(){
-     document.querySelector("#scroll-2").scrollIntoView({
+     document.querySelector("#skillsection").scrollIntoView({
         behavior:"smooth"
     })
     //  window.scrollTo({
@@ -153,7 +153,7 @@ skill3.addEventListener("click",function(){
     nav.style.display = "flex"
 })
 contact4.addEventListener("click",function(){
-     document.querySelector("#scroll-3").scrollIntoView({
+     document.querySelector("#download-2").scrollIntoView({
         behavior:"smooth"
     })
     // window.scrollTo({
