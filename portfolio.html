@@ -33,6 +33,11 @@
       z-index: 2;
     }
 
+    body{
+      height: 100vh;
+      background-color:rgb(176, 155, 129);
+    }
+
     #heading {
       height: 100%;
       width: 30%;
@@ -121,7 +126,7 @@
       z-index: 2;
       gap: 15%;
       top: 25%;
-      right: 5%;
+      left: 5%;
       color: white;
     }
 
@@ -317,6 +322,15 @@
         width: 100%;
       }
 
+      #mainPic {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      opacity: 1;
+    }
+
       #nav-option {
         width: 100%;
         gap: 20px;
@@ -335,13 +349,14 @@
       #content {
         width: 90%;
         height: auto;
-        top: 30%;
-        right: 5%;
+        align-items: center;
+        top: 56%;
+        right: 7%;
         gap: 15px;
       }
 
       .content {
-        font-size: 28px;
+        font-size: 40px;
       }
 
       #Download {
@@ -412,8 +427,41 @@
 
     /* ================= EXTRA SMALL DEVICES ================= */
     @media (max-width: 480px) {
+
+      #content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      width: 100vw;
+      position: absolute;
+      z-index: 2;
+      gap: 7%;
+      top: 40%;
+      right: 0%;
+      color: white;
+    }
       .content {
-        font-size: 22px;
+        font-size: 25px;
+        top: 35%;
+        right: 0;
+      }
+
+      #mainPic {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      opacity: 1;
+    }
+       #about {
+        width: 90%;
+        height: auto;
+        top: 25%;
+        right: 5%;
+        gap: 5%;
       }
 
       #Download {
@@ -681,6 +729,7 @@
     const projectClick = document.getElementById("projectClick")
     const project = document.getElementById("project")
     const mainPic = document.getElementById("mainPic");
+    const body = document.querySelector("body");
     downloadBtn.addEventListener("click",(e)=>{
         window.open("gaurav cv.pdf","_blank")
     })
@@ -688,12 +737,17 @@
 
     about.addEventListener("click",(e)=>{
         e.preventDefault();
-        // mainPic.src = `WhatsApp Image 2026-03-01 at 9.23.07 PM 2.jpeg`
+        mainPic.src = `WhatsApp Image 2026-03-16 at 6.27.17 PM.jpeg`
+        mainPic.style.right = `0%`
+        mainPic.style.width = `30%`
+        mainPic.style.height = `100%`
         content.style.display = `none`
         contactUs.style.display = `none`
+        body.style.backgroundColor = `rgb(176, 155, 129)`
         project.style.display = `none`
         document.getElementById("about").style.display = `flex`
-        // mainPic.style.objectPosition = `top`;
+        contactUs.style.left = `10%`
+        mainPic.style.objectPosition = `top`;
         document.getElementById("about").classList.add("slide-in");
     })
 
@@ -710,12 +764,55 @@
     projectClick.addEventListener("click",(e)=>{
         e.preventDefault()
         project.style.display = `flex`
-        // mainPic.src = `WhatsApp Image 2026-03-02 at 5.42.44 PM.jpeg`
+        mainPic.style.right = `70%`
+        mainPic.style.width = `30%`
+        mainPic.style.height = `100%`
+        mainPic.src = `WhatsApp Image 2026-03-16 at 6.27.18 PM.jpeg`
+        body.style.backgroundColor = `rgb(36 33 33)`
         content.style.display = `none`
+        contactUs.style.left = `45%`
         contactUs.style.display = `none`
         document.getElementById("about").style.display = `none`
-        // mainPic.style.objectPosition = `top`
+        // mainPic.style.objectPosition = `center right`
         project.classList.add("slide-in");
     })
+
+
+    if(window.innerWidth <= 480 || window.innerWidth <= 768){
+      mainPic.src = `WhatsApp Image 2026-03-16 at 6.27.17 PM.jpeg`
+
+      projectClick.addEventListener("click",(e)=>{
+        mainPic.src = `WhatsApp Image 2026-03-16 at 6.27.18 PM.jpeg`
+        mainPic.style.width = `100%`
+        mainPic.style.height = `100%`
+        mainPic.style.right = `0%`
+        contactUs.style.left = `10%`
+      })
+
+      about.addEventListener("click",(e)=>{
+        mainPic.src = `WhatsApp Image 2026-03-16 at 7.08.28 PM.jpeg`
+        mainPic.style.width = `100%`
+        mainPic.style.height = `100%`
+      })
+
+    }
+
+
+    if(window.innerWidth <= 768){
+      projectClick.addEventListener("click",(e)=>{
+        mainPic.src = `WhatsApp Image 2026-03-16 at 6.27.18 PM.jpeg`
+        mainPic.style.width = `100%`
+        mainPic.style.height = `100%`
+        contactUs.style.left = `0.7%`
+        
+
+      })
+
+      about.addEventListener("click",(e)=>{
+        mainPic.src = `WhatsApp Image 2026-03-16 at 7.08.28 PM.jpeg`
+        mainPic.style.width = `100%`
+        mainPic.style.height = `100%`
+      })
+    }
   </script>
 </html>
